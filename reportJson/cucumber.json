@@ -1,0 +1,87 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 629947900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "DespegarStepDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Go into the navegator",
+        "description": "",
+        "id": "i-as-usuario--make-a-reservation-in-the-page-of-despagar.com;go-into-the-navegator",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 35812530300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I need to go to the page despagar.com",
+            "match": {
+              "location": "DespegarStepDefinitions.iNeedToGoToThePageDespagarCom()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23057340600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I send the information for make the reservation",
+            "match": {
+              "location": "DespegarStepDefinitions.iSendTheInformationForMakeTheReservation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 522720700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I validate the if i sen all the information",
+            "match": {
+              "location": "DespegarStepDefinitions.iValidateTheIfISenAllTheInformation()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Despegar-Reservation"
+          },
+          {
+            "name": "@reservation"
+          }
+        ]
+      }
+    ],
+    "name": "i as usuario, Make a reservation in the page of despagar.com",
+    "description": "",
+    "id": "i-as-usuario--make-a-reservation-in-the-page-of-despagar.com",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Despagar.feature",
+    "tags": [
+      {
+        "name": "@Despegar-Reservation",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
